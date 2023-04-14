@@ -1,0 +1,69 @@
+.banner{
+    width: 100%;
+}
+
+.bannerimage{
+    width: 100%;
+    height: 400px;
+}
+
+ul.a{
+    list-style-type: circle;
+}
+
+ul.b{
+    list-style-type: square;
+}
+
+ol.c{
+    list-style-type: upper-roman;
+}
+
+ol.d{
+    list-style-type: lower-alpha;
+}
+ul.a li{
+    padding: 5px;
+    list-style-image: url('../images/check.png');
+}
+
+.my-form{
+    padding:  8px;
+}
+
+.my-form .form-group{
+    padding-bottom: 15px;
+}
+
+.my-form input[type= "text"], .my-form textarea{
+
+    padding: 8px;
+    width: 100%;
+}
+
+#customer{
+   
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customer td, #customer th{
+    border: 2px solid rgb(61, 20, 20);
+    padding: 8px;
+} 
+/*
+#customer tr:nth-child(even){
+    background-color: #f3c5c5;
+}*/
+
+#customer tr:hover {
+    background-color: rgb(121, 167, 241);
+}
+
+#customer th{
+    padding-top:  12px;
+    padding-bottom:  12px;
+    text-align: center;
+    background-color: rgb(6, 6, 6);
+    color: white;
+}

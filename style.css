@@ -1,0 +1,68 @@
+body 
+{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*NAV BAR STLYING BELOW*/
+nav
+{
+    background-color: black;
+    padding: 15px;
+}
+nav ul 
+{
+    list-style-type: none;
+}
+nav ul li 
+{
+    display: inline; 
+}
+nav ul li a
+{
+    padding: 15px;
+    color: wheat;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+
+
+/*WEB BANNER*/
+
+#webbanner
+{
+    width: 100%;
+}
+
+
+
+/*MAIN*/
+#home_page_image
+{
+    width: 50%;
+    height: auto;
+}
+.headings_box 
+{
+   
+    color: wheat;
+    text-align: center;
+}
+
+p
+{
+    width: auto;
+    text-align: center;
+}
+
+
+
+footer 
+{
+    text-align: center;
+    color: wheat;
+    padding: 20px;
+    background-color: black;
+}

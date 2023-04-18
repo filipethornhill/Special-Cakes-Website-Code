@@ -53,11 +53,6 @@ nav ul li a:hover
 
 
 /*MAIN*/
-#home_page_image
-{
-    width: 50%;
-    height: auto;
-}
 .headings_box 
 {
    
@@ -96,6 +91,12 @@ table, th , td
     border: 2px solid white;
     background-color: wheat;
     padding: 15px;
+}
+
+
+img 
+{
+    max-width:100%;
 }
 fieldset 
 {

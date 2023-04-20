@@ -7,7 +7,7 @@ body
 /*NAV BAR STLYING BELOW*/
 nav
 {
-    background-color: black;
+    background-color: #0C243C;
     padding: 15px;
 }
 nav ul 
@@ -21,7 +21,7 @@ nav ul li
 nav ul li a
 {
     padding: 15px;
-    color: wheat;
+    color: #E94D40;
     text-decoration: none;
     text-align: center;
 }
@@ -30,16 +30,7 @@ nav ul li a:hover
     text-decoration: underline;
 }
 
-@media screen and (max-width:700px) 
-{
-    nav ul li 
-    {
-        display: block;
-        text-align: center;
-        padding: 15px;
-        margin: 0px
-    }
-}
+
 
 
 
@@ -48,21 +39,20 @@ nav ul li a:hover
 #webbanner
 {
     width: 100%;
+    margin: 0px;
 }
 
 
-
-/*MAIN*/
+/*HEADINGS AND SUBHEADING DIV BOX*/
 .headings_box 
 {
    
-    color: wheat;
+    color: #E94D40;
     text-align: center;
 }
 
 p
 {
-    width: auto;
     text-align: center;
 }
 
@@ -71,14 +61,14 @@ p
 footer 
 {
     text-align: center;
-    color: wheat;
+    color: #E94D40;
     padding: 20px;
-    margin-top: 15px;
-    background-color: black;
+    margin-top: 35px;
+    background-color: #0C243C;
 }
 
 
-/*CAKES FOR SALE*/
+
 
 table
 {
@@ -88,16 +78,20 @@ table
 
 table, th , td 
 {
-    border: 2px solid white;
-    background-color: wheat;
+    border: 2px solid #E94D40;;
+    background-color: #0C243C;
     padding: 15px;
+    color: #E94D40;
 }
 
 
 img 
 {
     max-width:100%;
+    margin: 0px;
 }
+
+/*HTML FOURMS STYLING*/
 fieldset 
 {
     width: 50%;
@@ -105,8 +99,8 @@ fieldset
     text-align: center;
     margin-bottom: 50px;
     margin-top: 50px;
-    background-color: wheat;
- 
+    background-color: #0C243C;
+    color: #E94D40;
 }
 
 input, select
@@ -114,3 +108,36 @@ input, select
     padding: 15px;
 }
  
+
+.box /*THIS DIV IS FOR BASICALLY KEEPING THE SECTIONS ALIGNED WITH IN THE IMAGE WIDTH I DID THIS BECAUSE TO ME IT MAKES THE WEBSITE LOOK BETTER-->*/
+{
+
+    width: 39%;
+    margin:auto;
+}
+
+
+/*RESPONSIVE CODE*/
+@media screen and (max-width:700px) 
+{
+    nav ul li 
+    {
+        display: block;
+        text-align: center;
+        padding: 15px;
+    }
+    .box
+    {
+        width: 100%;
+        margin:auto;
+    }
+    fieldset 
+    {
+        width: 90%;
+    }
+    table
+    {
+        width: 100%;
+
+    }
+}

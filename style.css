@@ -4,6 +4,9 @@ body
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
+
+
 /*NAV BAR STLYING BELOW*/
 nav
 {
@@ -33,16 +36,6 @@ nav ul li a:hover
 
 
 
-
-/*WEB BANNER*/
-
-#webbanner
-{
-    width: 100%;
-    margin: 0px;
-}
-
-
 /*HEADINGS AND SUBHEADING DIV BOX*/
 .headings_box 
 {
@@ -50,11 +43,62 @@ nav ul li a:hover
     color: #E94D40;
     text-align: center;
 }
-
+#webbanner
+{
+    width: 100%;
+    margin: 0px;
+}
 p
 {
     text-align: center;
 }
+img 
+{
+    max-width:100%;
+    margin: 0px;
+}
+.box /*THIS DIV IS FOR BASICALLY KEEPING THE SECTIONS ALIGNED WITH IN THE IMAGE WIDTH I DID THIS BECAUSE TO ME IT MAKES THE WEBSITE LOOK BETTER-->*/
+{
+
+    width: 39%;
+    margin:auto;
+}
+
+
+
+
+table
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+table, th , td 
+{
+    border: 2px solid #E94D40;
+    background-color: #0C243C;
+    padding: 15px;
+    color: #E94D40;
+}
+
+
+
+
+/*HTML FOURMS STYLING*/
+fieldset 
+{
+    width: 50%;
+    margin:auto;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    background-color: #0C243C;
+    color: #E94D40;
+}
+input, select
+{
+    padding: 15px;
+}
+
 
 
 
@@ -68,53 +112,6 @@ footer
 }
 
 
-
-
-table
-{
-    margin-left: auto;
-    margin-right: auto;
-}
-
-table, th , td 
-{
-    border: 2px solid #E94D40;
-    background-color: #0C243C;
-    padding: 15px;
-    color: #E94D40;
-}
-
-
-img 
-{
-    max-width:100%;
-    margin: 0px;
-}
-
-/*HTML FOURMS STYLING*/
-fieldset 
-{
-    width: 50%;
-    margin:auto;
-    text-align: center;
-    margin-bottom: 50px;
-    margin-top: 50px;
-    background-color: #0C243C;
-    color: #E94D40;
-}
-
-input, select
-{
-    padding: 15px;
-}
- 
-
-.box /*THIS DIV IS FOR BASICALLY KEEPING THE SECTIONS ALIGNED WITH IN THE IMAGE WIDTH I DID THIS BECAUSE TO ME IT MAKES THE WEBSITE LOOK BETTER-->*/
-{
-
-    width: 39%;
-    margin:auto;
-}
 
 
 /*RESPONSIVE CODE*/

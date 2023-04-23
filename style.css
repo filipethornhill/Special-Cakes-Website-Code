@@ -52,36 +52,43 @@ p
 {
     text-align: center;
 }
-img 
+img
 {
-    max-width:100%;
-    margin: 0px;
-}
-.box /*THIS DIV IS FOR BASICALLY KEEPING THE SECTIONS ALIGNED WITH IN THE IMAGE WIDTH I DID THIS BECAUSE TO ME IT MAKES THE WEBSITE LOOK BETTER-->*/
-{
-
-    width: 39%;
-    margin:auto;
+    max-width: 100%;
 }
 
 
-
-
-table
+.products
 {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    
+}
+.products li 
+{
+    margin-right: 30px; 
+}
+.products h2
+{
+    text-align: center;
+}
+
+table, th, td 
+{
+    border:1px solid black;
+    padding: 25px;
     margin-left: auto;
     margin-right: auto;
-}
-table, th , td 
-{
-    border: 2px solid #E94D40;
     background-color: #0C243C;
-    padding: 15px;
     color: #E94D40;
+    border-radius: 25px;
 }
 
-
-
+th, td
+{
+    border-radius: 0px; 
+}
 
 /*HTML FOURMS STYLING*/
 fieldset 
@@ -132,9 +139,15 @@ footer
     {
         width: 90%;
     }
-    table
+    .products 
     {
-        width: 100%;
-
+        display: block;
+        text-align: center;
+    }
+    table, th, td 
+    {
+        border-radius: 0px; 
+        padding: 7px;
+        text-align: center;
     }
 }

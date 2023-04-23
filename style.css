@@ -57,7 +57,7 @@ img
     max-width: 100%;
 }
 
-
+/*PRODUCTS FOR THE CAKE FOR SALE PAGE STYLING*/
 .products
 {
     display: flex;
@@ -74,6 +74,7 @@ img
     text-align: center;
 }
 
+/*TABLE STYLING*/
 table, th, td 
 {
     border:1px solid black;
@@ -81,7 +82,7 @@ table, th, td
     margin-left: auto;
     margin-right: auto;
     background-color: #0C243C;
-    color: #E94D40;
+    color: white;
     border-radius: 25px;
 }
 
@@ -90,6 +91,10 @@ th, td
     border-radius: 0px; 
 }
 
+th
+{
+    color: #E94D40;
+}
 /*HTML FOURMS STYLING*/
 fieldset 
 {
@@ -130,11 +135,6 @@ footer
         text-align: center;
         padding: 15px;
     }
-    .box
-    {
-        width: 100%;
-        margin:auto;
-    }
     fieldset 
     {
         width: 90%;
@@ -151,3 +151,4 @@ footer
         text-align: center;
     }
 }
+

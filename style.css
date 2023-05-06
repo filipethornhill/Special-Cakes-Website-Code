@@ -1,7 +1,7 @@
 body 
 {
     margin: 0px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica, Calibri, sans-serif;
 }
 
 
@@ -10,7 +10,7 @@ body
 /*NAV BAR STLYING BELOW*/
 nav
 {
-    background-color: #0C243C;
+    background-color: white;
     padding: 15px;
 }
 nav ul 
@@ -24,37 +24,67 @@ nav ul li
 nav ul li a
 {
     padding: 15px;
-    color: #E94D40;
+    color: #4d1d18;
     text-decoration: none;
     text-align: center;
 }
 nav ul li a:hover
+{
+    color: #555;
+}
+a.current
 {
     text-decoration: underline;
 }
 
 
 
-
-/*HEADINGS AND SUBHEADING DIV BOX*/
-.headings_box 
+/* Two coluom layout for about us page */
+.grid-container 
 {
-   
-    color: #E94D40;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+.grid-item 
+{
+    padding: 20px;
     text-align: center;
 }
-#webbanner
+
+
+
+
+/*HEADINGS AND SUBHEADING*/
+.main_heading
+{
+    text-align: center;
+    color:#87423c;
+    font-size: 36px;
+}
+.sub_heading
+{
+    color: #4d1d18;
+    font-size: 24px;
+    text-align: center;
+}
+
+p 
+{
+    line-height: 150%;
+    text-align: center;
+    color: #3A3A3A;
+}
+#web_banner
 {
     width: 100%;
-    margin: 0px;
 }
-p
+.images
 {
-    text-align: center;
-}
-img
-{
-    max-width: 100%;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+ max-width: 100%;
 }
 
 /*PRODUCTS FOR THE CAKE FOR SALE PAGE STYLING*/
@@ -81,9 +111,10 @@ table, th, td
     padding: 25px;
     margin-left: auto;
     margin-right: auto;
-    background-color: #0C243C;
-    color: white;
+    background-color: white;
+    color: #3A3A3A;
     border-radius: 25px;
+    border-collapse: collapse;
 }
 
 th, td
@@ -103,8 +134,8 @@ fieldset
     text-align: center;
     margin-bottom: 50px;
     margin-top: 50px;
-    background-color: #0C243C;
-    color: #E94D40;
+    background-color: white;
+    color: #3A3A3A;;
 }
 input, select
 {
@@ -117,18 +148,35 @@ input, select
 footer 
 {
     text-align: center;
-    color: #E94D40;
-    padding: 20px;
+    color: #87423c;
+    padding: 50px;
     margin-top: 35px;
-    background-color: #0C243C;
+    background-color: #d3d0d0;
 }
 
 
-
-
 /*RESPONSIVE CODE*/
-@media screen and (max-width:700px) 
+@media screen and (max-width:900px) 
 {
+    .column
+    {
+        padding: 7px;
+    }  
+    table, th, td 
+    {
+        border-radius: 0px; 
+        padding: 0px;
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width:600px) 
+{
+    .column
+    {
+        padding: 0px;
+    }
     nav ul li 
     {
         display: block;
@@ -149,6 +197,12 @@ footer
         border-radius: 0px; 
         padding: 7px;
         text-align: center;
+    }
+    .grid-container
+    {
+        display: block;
+        width: 100%;
+        padding: 0px;
     }
 }
 
